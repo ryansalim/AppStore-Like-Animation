@@ -12,6 +12,8 @@
 		844C518521C1048600901C56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844C518321C1048600901C56 /* Main.storyboard */; };
 		844C518721C1048700901C56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844C518621C1048700901C56 /* Assets.xcassets */; };
 		844C518A21C1048700901C56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844C518821C1048700901C56 /* LaunchScreen.storyboard */; };
+		844C519321C106EF00901C56 /* ExpandableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C519121C106EF00901C56 /* ExpandableCell.swift */; };
+		844C519421C106EF00901C56 /* ExpandableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844C519221C106EF00901C56 /* ExpandableCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		844C518621C1048700901C56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		844C518921C1048700901C56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		844C518B21C1048700901C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844C519121C106EF00901C56 /* ExpandableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableCell.swift; sourceTree = "<group>"; };
+		844C519221C106EF00901C56 /* ExpandableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpandableCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				844C518621C1048700901C56 /* Assets.xcassets */,
 				844C518821C1048700901C56 /* LaunchScreen.storyboard */,
 				844C518B21C1048700901C56 /* Info.plist */,
+				844C519121C106EF00901C56 /* ExpandableCell.swift */,
+				844C519221C106EF00901C56 /* ExpandableCell.xib */,
 			);
 			path = TestAppStoreAnimation;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 				844C518A21C1048700901C56 /* LaunchScreen.storyboard in Resources */,
 				844C518721C1048700901C56 /* Assets.xcassets in Resources */,
 				844C518521C1048600901C56 /* Main.storyboard in Resources */,
+				844C519421C106EF00901C56 /* ExpandableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +144,7 @@
 			files = (
 				844C518221C1048600901C56 /* ViewController.swift in Sources */,
 				844C518021C1048600901C56 /* AppDelegate.swift in Sources */,
+				844C519321C106EF00901C56 /* ExpandableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
